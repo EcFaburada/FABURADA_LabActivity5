@@ -16,7 +16,7 @@ public LeapYearGUI() {
         public void actionPerformed(ActionEvent actionEvent) {
                 try {
 
-                    int year;
+                    int year ;
 
                     year = Integer.parseInt(tfYear.getText());
                     if (year % 400 == 0) {
