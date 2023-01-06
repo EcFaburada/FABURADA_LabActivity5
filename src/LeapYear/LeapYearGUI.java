@@ -21,29 +21,29 @@ public LeapYearGUI() {
                     year = Integer.parseInt(tfYear.getText());
                     if (year % 400 == 0) {
                         JOptionPane.showMessageDialog(btnCheckYear, "Leap year");
-                    } else if (year % 100 == 0) {
+                    } else if  (year % 100 == 0) {
                         JOptionPane.showMessageDialog(btnCheckYear, "Not a leap year");
-                    } else if (year % 4 == 0) {
+                    } else if  (year % 4 == 0) {
                         JOptionPane.showMessageDialog(btnCheckYear, "Leap year");
                     } else {
                         JOptionPane.showMessageDialog(btnCheckYear, "Not a leap year");
 
                     }
 
-                } catch (NumberFormatException ex) {
+                } catch  (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(null, "Invalid Not a Year");
                 }
             }
      });
 
     }
-        public static void main(String[] args) {
+        public  static void main(String[] args) {
 
-            LeapYearGUI lpchecker = new LeapYearGUI();
+             LeapYearGUI lpchecker = new LeapYearGUI();
 
-            lpchecker.setContentPane(lpchecker.panel1);
+             lpchecker.setContentPane(lpchecker.panel1);
 
-            lpchecker.setTitle("Leap Year Checker");
+             lpchecker.setTitle("Leap Year Checker");
 
             lpchecker.setSize(420,380);
 

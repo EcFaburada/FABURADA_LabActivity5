@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SimpleCalcGUI extends JFrame {
+public class   SimpleCalcGUI extends JFrame {
     private JPanel panel1;
-    private JComboBox cbOperations;
-    private JButton btnCompute;
-    private JTextField lblResult;
-    private JTextField tfNumber1;
-    private JTextField tfNumber2;
+    private  JComboBox cbOperations;
+    private  JButton btnCompute;
+    private  JTextField lblResult;
+    private  JTextField tfNumber1;
+    private  JTextField tfNumber2;
 
     public SimpleCalcGUI() {
     btnCompute.addActionListener(new ActionListener() {
