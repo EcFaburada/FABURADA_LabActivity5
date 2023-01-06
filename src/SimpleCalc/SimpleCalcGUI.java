@@ -15,7 +15,7 @@ public class   SimpleCalcGUI extends JFrame {
     public SimpleCalcGUI() {
     btnCompute.addActionListener(new ActionListener() {
         @Override
-        public void actionPerformed(ActionEvent actionEvent) {
+        public void  actionPerformed(ActionEvent actionEvent) {
 
             try {
 
@@ -23,8 +23,8 @@ public class   SimpleCalcGUI extends JFrame {
                 int num2;
                 int total;
 
-                num1 = Integer.parseInt(tfNumber1.getText());
-                num2 = Integer.parseInt(tfNumber2.getText());
+                num1 =  Integer.parseInt(tfNumber1.getText());
+                num2 =  Integer.parseInt(tfNumber2.getText());
 
                 if (cbOperations.getSelectedItem().equals("+")) {
 
